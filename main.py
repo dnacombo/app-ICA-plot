@@ -12,7 +12,7 @@ with open('config.json','r') as config_f:
     config = json.load(config_f)
 
 
-fname = config['fif']
+fname = config['ica']
 ica=mne.preprocessing.read_ica(fname, verbose=None)
 ica.plot_components()
 
