@@ -1,3 +1,6 @@
+# this app is used to plot the components of an ICA object
+# it loads the ICA object and then plots the components
+
 import os
 import mne
 import json
